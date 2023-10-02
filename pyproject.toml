@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oop-1"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Levkin <levkin.a@promail366.com>"]
+readme = "README.md"
+packages = [{include = "oop_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
